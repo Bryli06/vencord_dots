@@ -52,4 +52,10 @@
 }
 
 /* Any custom CSS below here */
-
+div[class|=chat] > div[class|=content] > div[class|=container] {
+  background-color: none;
+}
+div[class|=chat] > div[class|=content] > div[class|=container] div[class|=grid][class*=scrollerBase],
+div[class|=chat] > div[class|=content] > div[class|=container] > div[class|=chatContainer] > div[class|=container] {
+  background-color: none;
+}
