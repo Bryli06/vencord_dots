@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@100;300;400;500;700&display=swap');
-@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/Solana.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
+@import url('https://raw.githubusercontent.com/S0apyy/BetterDiscordStuff/main/Themes/Solana/Solana.css');
+@import url("https://raw.githubusercontent.com/S0apyy/BetterDiscordStuff/main/Themes/Solana/addon/mac-titlebar.css");
+@import url("https://raw.githubusercontent.com/S0apyy/BetterDiscordStuff/main/css/bdAddonMini.css");
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
 
 :root {
@@ -51,7 +51,3 @@
   --enable-blur: 1;
 }
 
-/* Any custom CSS below here */
-div[class|=chat] > div[class|=content] > div[class|=container] {
-  background-color: transparent;
-}
